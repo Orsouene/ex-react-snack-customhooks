@@ -1,3 +1,4 @@
+import UseDataLauncher from "./Components/DataHook/useDataLauncher"
 import UseSwitchLauncher from "./Components/SwitchHook/UseSwitchLauncher"
 function App() {
 
@@ -6,7 +7,8 @@ function App() {
     <>
     {/* useSwitch */}
       <UseSwitchLauncher/>
-    
+    {/* useData */}
+      <UseDataLauncher/>
     </>
   )
 }
