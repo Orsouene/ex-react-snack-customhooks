@@ -1,12 +1,12 @@
-
+import UseSwitchLauncher from "./Components/SwitchHook/UseSwitchLauncher"
 function App() {
+
 
   return (
     <>
+    {/* useSwitch */}
+      <UseSwitchLauncher/>
     
-      <p>
-        Prova
-      </p>
     </>
   )
 }
