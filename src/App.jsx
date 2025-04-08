@@ -1,6 +1,7 @@
 import UseDataLauncher from "./Components/DataHook/useDataLauncher"
 import UseSwitchLauncher from "./Components/SwitchHook/UseSwitchLauncher"
 import UseMousePositionLancher from "./Components/MousePosition/useMousePositionLancher"
+import UseKeyPressLauncher from "./Components/keyPress/UseKeyPressLauncher"
 function App() {
 
 
@@ -11,7 +12,9 @@ function App() {
     {/* useData */}
       <UseDataLauncher/>
     {/* MousePosition */}
-      <UseMousePositionLancher/>
+      {/* <UseMousePositionLancher/> */}
+      {/* UseKeyPress */}
+      <UseKeyPressLauncher/>
     </>
   )
 }
